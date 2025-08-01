@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --color-w-1: #FFFEFE;
+    --color-w-2: #F3F4F6;
+    --color-g: #394150;
+    --color-bl: #000000;
+    --color-b-1: #9DC4F8;    
+    --color-b-2: #263FA9;    
+    --color-gn: #86E7D4;
+    --color-p: #C1B6F8;
+    --color-pk: #EDACD2;
+    --color-y: #F8D8B0;
+    --font-o: "Outfit", sans-serif;
+}
+
+@layer utilities {
+    .wrapper {
+        @apply lg:max-w-[854px] xl:max-w-[1138px] mx-auto;
+    }
+}
